@@ -70,7 +70,7 @@ native Node:JSON_Array(Node:...);
 // output: {"key1": "value", "key2": "value"}
 //
 // new Node:a = JSON_Array(JSON_Int(1), JSON_Int(2));
-// new Node:a = JSON_Array(JSON_Int(3));
+// new Node:b = JSON_Array(JSON_Int(3));
 // new Node:c = JSON_Append(a, b);
 //
 // output: [1, 2, 3]
